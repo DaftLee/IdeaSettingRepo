@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="main" />
       <item value="你好世界" />
       <item value="手机" />
       <item value="手机号码异常" />
