@@ -1,5 +1,7 @@
 <templateSet group="output">
-  <template name="newthread1" value="new Thread(() -&gt;{},&quot;Thread1&quot;).start();" description="new Thread1 lumbda" toReformat="false" toShortenFQNames="true">
+  <template name="newthread1" value="new Thread(() -&gt;{&#10;    $VAR1$&#10;},&quot;$VAR2$&quot;).start();" description="new Thread1 lumbda" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
