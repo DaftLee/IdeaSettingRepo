@@ -32,5 +32,8 @@
   </template>
   <template name="threadpoolshutdown" value="try {&#10;    $END$&#10;} catch (Exception e){&#10;    e.printStackTrace();&#10;} finally {&#10;    $VAR1$.shutdown();&#10;}" description="线程池创建和关闭" toReformat="false" toShortenFQNames="true">
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
   </template>
 </templateSet>
