@@ -38,6 +38,10 @@
           <option name="url" value="http://git2.aegis-info.com/lixiang/newspapermanagementplatform.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git2.aegis-info.com/SunYibo/CaseFinding.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\EDZ\IdeaProjects" />
