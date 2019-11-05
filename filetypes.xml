@@ -4,8 +4,6 @@
     <extensionMap>
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
-      <mapping ext="proto" type="PLAIN_TEXT" />
-      <removed_mapping ext="proto" approved="true" type="PROTO" />
       <removed_mapping ext="proto" approved="true" type="PROTO" />
     </extensionMap>
   </component>
