@@ -26,8 +26,12 @@
           <option name="url" value="https://github.com/DaftLee/microservice.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/DaftLee/my_netty.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="E:\PROJECT" />
+    <option name="cloneParentDir" value="C:\Users\cheng\IdeaProjects" />
   </component>
 </application>
