@@ -30,8 +30,16 @@
           <option name="url" value="https://github.com/DaftLee/my_netty.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git2.aegis-info.com/SunYibo/Risk.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git2.aegis-info.com" />
+          <option name="userName" value="lichengchao@aegis-data.cn" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\cheng\IdeaProjects" />
+    <option name="cloneParentDir" value="C:\Users\EDZ\IdeaProjects" />
   </component>
 </application>
