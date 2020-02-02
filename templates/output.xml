@@ -1,0 +1,45 @@
+<templateSet group="output">
+  <template name="newthread1" value="new Thread(() -&gt;{&#10;    $VAR1$&#10;},&quot;$VAR2$&quot;).start();" description="new Thread1 lumbda" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="mylock" value="$VAR1$.lock();&#10;try {&#10;    $END$&#10;} catch (Exception e){&#10;    e.printStackTrace();&#10;}&#10;$VAR1$.unlock();" description="lock and unlock" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="loggerdefine" value="private static final Logger logger = LoggerFactory.getLogger($CLASS_NAME$.class);" description="设置logger" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="loggererror" value="logger.error($VAR1$,e);" description="错误日志" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="timesleep" value="try { TimeUnit.SECONDS.sleep($VAR1$); } catch (InterruptedException e) {e.printStackTrace();}" description="线程睡眠" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="threadpoolshutdown" value="try {&#10;    $END$&#10;} catch (Exception e){&#10;    e.printStackTrace();&#10;} finally {&#10;    $VAR1$.shutdown();&#10;}" description="线程池创建和关闭" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="trycatchH5" value="try {&#10;    logger.info(&quot;$VAR1$&quot;);&#10;    $END$&#10;}catch (Exception e){&#10;    rst.put(&quot;returnCode&quot;, &quot;-9999&quot;);&#10;    rst.put(&quot;returnMessage&quot;, &quot;$VAR1$失败&quot;);&#10;    logger.error(&quot;$VAR1$异常&quot;,e);&#10;    return rst;&#10;&#10;}" description="H5异常捕获" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,18 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="循环引用" />
+      <item value="main" />
+      <item value="你好世界" />
+      <item value="手机" />
+      <item value="手机号码异常" />
+      <item value="号码" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="6" />
+        <entry key="ENGLISH" value="7" />
+      </map>
+    </option>
+  </component>
+</application>
