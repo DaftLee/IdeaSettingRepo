@@ -58,6 +58,26 @@
           <option name="url" value="https://github.com/spring-projects/spring-framework.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git2.aegis-info.com/java2-group/xiaofa-mall.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git2.aegis-info.com/jkspring/aegisjuzitower.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/ZimoLoveShuang/DouYinVideoCrawler.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git2.aegis-info.com/mcs/lawtoolservicenew.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git2.aegis-info.com/songqiqi/ageis_schduler.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\EDZ\IdeaProjects" />
