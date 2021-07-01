@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Default Changelist" />
-    <option name="defaultScopeName" value="Default Changelist" />
-    <option name="SEARCH_SCOPE" value="Default Changelist" />
+    <option name="customScope" value="Project 'newspaper'" />
+    <option name="defaultScopeName" value="Project 'newspaper'" />
+    <option name="SEARCH_SCOPE" value="Project 'newspaper'" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
