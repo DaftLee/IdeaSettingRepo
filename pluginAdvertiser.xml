@@ -222,11 +222,6 @@
                       <FeaturePluginData displayName="Shell Script" pluginName="Shell Script" pluginId="com.jetbrains.sh" bundled="true" />
                     </value>
                   </entry>
-                  <entry key="SpaceRunConfiguration">
-                    <value>
-                      <FeaturePluginData displayName="Space Task" pluginName="Space" pluginId="com.jetbrains.space" bundled="true" />
-                    </value>
-                  </entry>
                   <entry key="SpringBootApplicationConfigurationType">
                     <value>
                       <FeaturePluginData displayName="Spring Boot" pluginName="Spring Boot" pluginId="com.intellij.spring.boot" bundled="true" />
