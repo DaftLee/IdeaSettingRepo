@@ -134,6 +134,10 @@
           <option name="url" value="https://github.com/lyb-geek/springboot-learning.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://git.aegis-data.cn/jzl/gz_dispute.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\EDZ\IdeaProjects" />
