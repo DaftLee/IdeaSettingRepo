@@ -5,6 +5,7 @@
       <removed_mapping ext="apk" approved="true" type="APK" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="gz" type="PLAIN_TEXT" />
       <removed_mapping ext="psd" approved="true" type="Adobe Photoshop" />
       <removed_mapping ext="log" approved="true" type="Log" />
       <removed_mapping ext="apk" approved="true" type="APK" />
